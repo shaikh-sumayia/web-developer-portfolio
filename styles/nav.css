@@ -1,6 +1,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-primary{
@@ -21,6 +23,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 200px;
 }
 
 .nav-title{
@@ -49,3 +52,18 @@ nav a{
     
 }
 
+/*header related styles*/
+
+.header{
+    background-color:floralwhite;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
