@@ -196,4 +196,34 @@ font-weight: 700
 .cv-download-button{
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 80px;
 }
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 50px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.social-link a{
+    margin-right: 24px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], 
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: none;
+    width: 100%;
+}
+
